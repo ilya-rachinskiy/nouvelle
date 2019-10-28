@@ -3,10 +3,22 @@ title: 'CSS: новый вид JavaScript'
 date: 2018-07-13
 source:
     title: 'CSS: A New Kind Of JavaScript'
-    url: https://medium.com/p/fcf730d33ce7
-    author: 'Хейдона Пикеринга'
+    url: 'https://medium.com/p/fcf730d33ce7'
+    author: 'Хейдон Пикеринг'
+translator:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
+editor:
+  - name: 'Ольга Алексашенко'
+    url: 'https://moikrug.ru/engel-t'
+  - name: 'Андрей Мелихов'
+    url: 'https://medium.com/@amel_true'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - html
+  - css
+  - js
 ---
 
 Те из вас, кто знаком с веб-платформой, наверняка наслышаны и о двух дополнительных технологиях: **HTML** для структуризации документов и **JavaScript** для интерактивности и стилизации.
@@ -152,5 +164,3 @@ CSS гораздо надёжнее. В большинстве случаев л
 CSS решает проблемы JavaScript со стилизацией, причём элегантно. Вопрос в том, готовы ли вы принять изменения или вы завязли в неудачной методологии?
 
 Больше информации про CSS и советы для быстрого старта [вы найдете здесь](https://en.wikipedia.org/wiki/Campus_SuperStar).
-
-_Перевод [Вадима Макеева](https://medium.com/@pepelsbey), редактура [Ольги Алексашенко](https://medium.com/@tachisis) и [Андрея Мелихова](https://medium.com/@amel_true)._

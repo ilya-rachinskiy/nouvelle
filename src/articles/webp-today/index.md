@@ -3,10 +3,19 @@ title: 'WebP сегодня: зачем и как?'
 date: 2018-12-25
 source:
     title: 'Why and how to use WebP images today'
-    url: https://bitsofco.de/why-and-how-to-use-webp-images-today/
+    url: 'https://bitsofco.de/why-and-how-to-use-webp-images-today/'
     author: 'Ире Адеринокун'
+translator:
+    name: 'Владислав Ермолин'
+    url: 'https://medium.com/@electrovladyslav'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - js
+  - performance
 ---
 
 [WebP](https://developers.google.com/speed/webp/) — формат графики, разработанный Google в 2010. Он был создан, как альтернатива PNG и JPG, и отличается от них гораздо меньшим размером при том же качестве изображения.
@@ -93,5 +102,3 @@ _[Поддержка WebP на Can I use.](https://caniuse.com/#feat=webp)_
 _Подробнее об этих атрибутах и адаптивных картинках читайте в статье Ире «[Responsive Images — The srcset and sizes Attributes](https://bitsofco.de/the-srcset-and-sizes-attributes/)» — прим. редактора._
 
 В дополнение к различным `<source>`, также нужно добавить обычный элемент `<img>`, как фолбэк для браузеров, которые не поддерживают множественные форматы и `<picture>`.
-
-_Перевод [Владислава Ермолина](https://medium.com/@electrovladyslav), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

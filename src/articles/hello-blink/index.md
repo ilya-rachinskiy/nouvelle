@@ -3,10 +3,18 @@ title: 'Здравствуй, Blink'
 date: 2013-04-06
 source:
     title: 'Hello Blink'
-    url: https://www.brucelawson.co.uk/2013/hello-blink/
-    author: 'Брюса Лоусона'
+    url: 'https://www.brucelawson.co.uk/2013/hello-blink/'
+    author: 'Брюс Лоусон'
+translator:
+    name: 'Антон Немцев'
+    url: 'https://twitter.com/silentimp'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - performance
 ---
 
 Как же хорошо открыто говорить о [Blink](http://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html) — новом движке для браузеров Opera _(примечание: это мой работодатель, но запись личная)_ и Сhrome. Я знаю множество людей, которые переживали, что с уходом Opera Presto веб потеряет былое многообразие, но форк WebKit в Blink восстановит баланс сил. Opera будет развивать Blink.
@@ -20,7 +28,3 @@ _(Добавлено позднее)_ Мой начальник, Ларш Эри
 А ещё хорошо, что [в Blink больше не будет префиксов](http://www.chromium.org/blink#vendor-prefixes) (только [унаследованные от WebKit](http://www.chromium.org/blink/developer-faq#TOC-Will-we-see-a--chrome--vendor-prefix-now-), да и они будут удалены или отброшены, как только это станет возможным). Префиксы — это как сольная карьера Моррисси (солист британской группы The Smiths — _прим. редактора):_ отличная идея на бумаге и полный кошмар в реальности.
 
 Так что, здравствуй, Blink. При том, что движок Presto проживёт до 2020 года, а Firefox с Samsung анонсировал работу над двумя молодыми проектами в основе нового движка [Servo](https://blog.mozilla.org/blog/2013/04/03/mozilla-and-samsung-collaborate-on-next-generation-web-browser-engine/) — разнообразие веба никогда не выглядело так здорово, а совместимость — такой, эм-м, совместимой.
-
-Перевод оригинальной записи «[Hello Blink](http://www.brucelawson.co.uk/2013/hello-blink/)» Брюса Лоусона (Bruce Lawson). Переведено и опубликовано с разрешения автора.
-
-_Перевод [Антона Немцева](http://twitter.com/silentimp), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

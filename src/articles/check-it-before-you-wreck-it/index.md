@@ -3,10 +3,22 @@ title: 'Не проверив HTML5-кода, не суйся в воду �
 date: 2014-12-26
 source:
     title: 'HTML5 — Check it Before you Wreck it with Mike™ Smith'
-    url: http://html5doctor.com/html5-check-it-before-you-wreck-it-with-miketm-smith/
-    author: 'Стива Фолкнера'
+    url: 'https://html5doctor.com/html5-check-it-before-you-wreck-it-with-miketm-smith/'
+    author: 'Стив Фолкнер'
+translator:
+  - name: 'Максим Усачёв'
+    url: 'https://twitter.com/psyw'
+  - name: 'Илья Стрельцын'
+    url: 'https://twitter.com/SelenIT2'
+editor:
+  - name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
+  - name: 'Ольга Алексашенко'
+    url: 'https://moikrug.ru/engel-t'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - html
 ---
 
 [Майк™ Смит](http://people.w3.org/mike/) (известный как [@sideshowbarker](https://twitter.com/sideshowbarker)) из W3C — человек, с головой увязший в исходном коде инструмента W3C для _проверки <del>валидности</del> разметки_; эта _магия_ работает именно благодаря ему. Вопросы были заданы на радость и в назидание читателю сайта.
@@ -174,5 +186,3 @@ _Проверка соответствия документа_ — хороши
 	<iframe width="510" height="383" src="images/https://www.youtube.com/embed/FVbVCZw5BPQ" allowfullscreen></iframe>
 	<figcaption>Полезный совет — всегда <a href="http://validator.w3.org/nu">проверяй свой HTML</a> под <a href="http://youtu.be/FVbVCZw5BPQ">рок-н-ролл</a>, играющий… ГРОМКО!</figcaption>
 </figure>
-
-_Перевод [Максима Усачёва](https://twitter.com/psyw) и [Ильи Стрельцына](https://twitter.com/SelenIT2), редактура [Вадима Макеева](http://pepelsbey.net) и [Ольги Алексашенко](http://engel-t.moikrug.ru)._

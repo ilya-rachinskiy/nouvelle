@@ -3,10 +3,15 @@ title: 'Как работает nth-child'
 date: 2011-11-21
 source:
     title: 'How nth-child Works'
-    url: http://css-tricks.com/5452-how-nth-child-works/
-    author: 'Криса Койера'
+    url: 'http://css-tricks.com/5452-how-nth-child-works/'
+    author: 'Крис Койер'
+translator:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - css
 ---
 
 Существует такой селектор, точнее псевдокласс, называемый `:nth-child`. Вот пример его использования:

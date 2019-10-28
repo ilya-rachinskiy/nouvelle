@@ -3,10 +3,19 @@ title: 'Глубокое погружение в ES-модули в картин
 date: 2018-03-30
 source:
     title: 'ES modules: A cartoon deep-dive'
-    url: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/
+    url: 'https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/'
     author: 'Лин Кларк'
+translator:
+    name: 'Артур Храбров'
+    url: 'https://medium.com/@nzvtrkk'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - js
+  - performance
 ---
 
 ![](images/1.png)
@@ -272,5 +281,3 @@ CommonJS может делать всё по-другому, потому что
 ## Благодарность
 
 Спасибо всем, кто дал обратную связь на этот пост, или чьи письма или дискуссии прошлого года, в том числе Акселю Раухшмаеру, Бредли Фариасу, Дейву Хернану, Доменику Дениколе, Хави Хоффману, Джейсону Везерсби, Джей-Эф Бастьену, Йону Копперду, Люку Вагнеру, Майлсу Боринсу, Тиллю Шнайдериту, Тобаясу Копперсу, Йехуде Кацу, участникам сообщества WebAssembly, Рабочей группе Node Modules, а также TC39.
-
-_Перевод [Артура Храброва](https://medium.com/@nzvtrkk), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

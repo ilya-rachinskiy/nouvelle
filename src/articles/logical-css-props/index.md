@@ -3,10 +3,18 @@ title: 'Новые логические свойства в CSS!'
 date: 2019-02-06
 source:
     title: 'New CSS Logical Properties!'
-    url: https://medium.com/p/bc6945311ce7
-    author: 'Элада Шехтера'
+    url: 'https://medium.com/p/bc6945311ce7'
+    author: 'Элад Шехтер'
+translator:
+    name: 'Алёна Батицкая'
+    url: 'https://medium.com/@ABatickaya'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - css
 ---
 
 Следующий шаг в эволюции CSS
@@ -326,5 +334,3 @@ tags: article
 
 - [CSS Masters](https://www.facebook.com/groups/css.master/)
 - [CSS Masters Israel](https://www.facebook.com/groups/css.masters.israel/)
-
-_Перевод [Алёны Батицкой](https://medium.com/@ABatickaya), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

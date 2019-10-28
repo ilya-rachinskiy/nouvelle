@@ -3,10 +3,18 @@ title: 'Размеры блоков, или Назад в будущее'
 date: 2013-01-23
 source:
     title: 'Box-sizing: border-box; the results are in'
-    url: http://generatedcontent.org/post/26334712021/box-sizing-results
-    author: 'Дэвида Стори'
+    url: 'http://generatedcontent.org/post/26334712021/box-sizing-results'
+    author: 'Дэвид Стори'
+translator:
+    name: 'Сергей Смольников'
+    url: 'https://twitter.com/smolnikov'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - css
 ---
 
 Технологии разработки сайтов меняются в корне. XHTML (Strict — мы так гордились своей работой) уступил место более свободному HTML5. Нарезанные картинки и div-обёртки заменяются гораздо более разумными (и, если повезет, семантичными) средствами HTML и CSS3, такими как `border-radius`, `box-shadow` и градиенты. Резиновая раскладка превращается в отзывчивый дизайн на медиа-выражениях. JavaScript — уже не просто игрушка, и занимает положенное место в триумвирате с HTML и CSS. Может быть, мы уже близки к получению реального инструмента разметки с помощью Flexbox. Может быть, даже почтенные единицы `em` будут забыты, и их заменят более предсказуемые [`rem`](http://generatedcontent.org/post/11933972962/css3values), а также [гибкие единицы `vw` и `vh`](http://generatedcontent.org/post/21279324555/viewportunits).
@@ -94,5 +102,3 @@ CSS-свойство `box-sizing` существует уже некоторое
 Я оставлю [опрос открытым](https://docs.google.com/spreadsheet/viewform?formkey=dE83R3I0Z29PaldPYm5nalEyU3dsNmc6MQ) в надежде собрать больше ответов. Но поскольку соотношение результатов в `box-sizing:border-box;` составило 60 к 40 в течение недели, я не жду, что результат значительно изменится.
 
 Вы все еще можете принять участие в опросе. К сожалению, результаты опроса сейчас скрыты. Но это только подогревает наше любопытство. Расскажите: а что вы думаете о возможности выбора блочной модели? Используете box-sizing:border-box; в текущих проектах? Планируете использовать?
-
-_Перевод [Сергей Смольников](https://twitter.com/smolnikov), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

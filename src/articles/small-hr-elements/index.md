@@ -3,10 +3,15 @@ title: 'Элементы small и hr'
 date: 2011-05-30
 source:
     title: 'The small & hr elements'
-    url: http://html5doctor.com/small-hr-element/
-    author: 'Оли Стадхольма'
+    url: 'https://html5doctor.com/small-hr-element/'
+    author: 'Оли Стадхольм'
+translator:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - html
 ---
 
 Не так давно мы писали [о презентационных элементах `<i>` и `<b>`](/articles/i-b-em-strong-elements/) из HTML4, возродившихся к новой семантической жизни. Другие два элемента, которые претерпели изменения, чтобы получить значения в HTML5 — это `<small>` и `<hr>`:

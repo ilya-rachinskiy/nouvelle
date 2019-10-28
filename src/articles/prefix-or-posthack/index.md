@@ -3,10 +3,15 @@ title: 'Префикс или постхак'
 date: 2010-08-19
 source:
     title: 'Prefix or posthack'
-    url: http://www.alistapart.com/articles/prefix-or-posthack/
-    author: 'Эрика Мейера'
+    url: 'http://www.alistapart.com/articles/prefix-or-posthack/'
+    author: 'Эрик Мейер'
+translator:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - css
 ---
 
 В то время, как поддержка CSS в браузерах улучшается с каждым днём — включая впечатляющие успехи команды разработчиков IE9 — всё больше и больше авторов увлекаются CSS3. По этой причине им приходится сталкиваться с _браузерными префиксами_ — свойствами вида `-*-`, вроде `-moz-border-radius`, `-webkit-animation` и так далее.

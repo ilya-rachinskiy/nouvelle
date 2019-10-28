@@ -9,10 +9,15 @@
 @import 'blocks/logo.css';
 @import 'blocks/navigation.css';
 @import 'blocks/articles.css';
+@import 'blocks/archive.css';
+@import 'blocks/preview.css';
+@import 'blocks/notice.css';
 @import 'blocks/informer.css';
 @import 'blocks/main.css';
 @import 'blocks/links.css';
 @import 'blocks/footer.css';
+@import 'blocks/article.css';
+@import 'blocks/authors.css';
 
 /* Globals */
 
@@ -23,7 +28,8 @@
     --color-grey-light: #828282;
     --color-grey-lighter: #b1b3b6;
     --color-grey-lightest: #e9eaeb;
-    --color-blue-light: #def3f6;
     --color-blue-medium: #26649f;
+    --color-blue-light: #32adfd;
+    --color-blue-lightest: #def3f6;
     --color-green-light: #ddf2ea;
 }

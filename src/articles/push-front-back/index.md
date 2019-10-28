@@ -3,10 +3,18 @@ title: 'Реализуем пуш-уведомления на фронтенде
 date: 2017-03-13
 source:
     title: 'Implementing push notifications on the front-end and back-end'
-    url: https://justmarkup.com/log/2017/02/implementing-push-notifications/
-    author: 'Михаэля Шарналя'
+    url: 'https://justmarkup.com/log/2017/02/implementing-push-notifications/'
+    author: 'Михаэль Шарналь'
+translator:
+    name: 'Владислав Почепцов'
+    url: 'https://medium.com/@vlad_poe'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - js
 ---
 
 В предыдущей [статье](https://justmarkup.com/log/2017/02/introducing-iss-observer-com/) об [iss-observer.com](https://iss-observer.com/) я обещал рассказать о технической стороне реализации пуш-уведомлений. Изначально я планировал сконцентрироваться на проблемах, с которыми пришлось иметь дело в процессе работы над [iss-observer.com](https://iss-observer.com/). Теперь я думаю, будет полезнее посвятить материал базовым вопросам, и уточнять детали, где это необходимо. Обращаю ваше внимание, что фронтенд частично опирается на [этот урок](https://developers.google.com/web/fundamentals/getting-started/codelabs/push-notifications/?hl=en).
@@ -343,5 +351,3 @@ _TTL (Time To Live) — срок жизни уведомления —по ум�
 Для более глубокого погружения в тему рекомендую бесплатную книгу [Web Push Book](https://web-push-book.gauntface.com) и примеры на [servicewore.rs](https://serviceworke.rs/).
 
 Если вам есть что спросить, или есть что добавить, пишите в [Twitter](https://twitter.com/justmarkup) или по [электронной почте](mailto:hallo@justmarkup.com).
-
-_Перевод [Владислава Почепцова](https://medium.com/@vlad&#95;poe), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

@@ -3,10 +3,18 @@ title: 'Атрибут contenteditable'
 date: 2012-03-09
 source:
     title: 'The contenteditable attribute'
-    url: http://html5doctor.com/the-contenteditable-attribute/
-    author: 'Джека Осборна'
+    url: 'https://html5doctor.com/the-contenteditable-attribute/'
+    author: 'Джек Осборн'
+translator:
+    name: 'Антон Немцев'
+    url: 'https://twitter.com/silentimp'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - html
 ---
 
 Мы уже давно используем различные технологии для редактирования и хранения текста в браузере. С атрибутом `contenteditable` это становится намного проще. В этой статье я расскажу для чего этот атрибут, как он работает и куда нам двигаться дальше.
@@ -77,11 +85,11 @@ tags: article
 
 Редактирование текста.
 
-Я использовал CSS для создания оформления, показывающего, что текст доступен для редактирования. Обратите внимание на ориентированное на будущее использование `<style scoped>`, которое описано в моей [предыдущей статье](http://html5doctor.com/the-scoped-attribute/).
+Я использовал CSS для создания оформления, показывающего, что текст доступен для редактирования. Обратите внимание на ориентированное на будущее использование `<style scoped>`, которое описано в моей [предыдущей статье](https://html5doctor.com/the-scoped-attribute/).
 
 ### Пример №2
 
-[Крис Койер](http://twitter.com/chriscoyier) рассказывал на CSS-Tricks, что вы можете позволить вашим пользователям [редактировать CSS в реальном времени](http://css-tricks.com/show-and-edit-style-element/), так как `<style>` элемент имеет `display:none` по умолчанию, но ведь значение можно изменить на `block`.
+[Крис Койер](https://twitter.com/chriscoyier) рассказывал на CSS-Tricks, что вы можете позволить вашим пользователям [редактировать CSS в реальном времени](http://css-tricks.com/show-and-edit-style-element/), так как `<style>` элемент имеет `display:none` по умолчанию, но ведь значение можно изменить на `block`.
 
 Попробуйте отредактировать CSS, приведенный ниже:
 
@@ -160,5 +168,3 @@ tags: article
 
 - [Что такое contenteditable?](http://blog.whatwg.org/the-road-to-html-5-contenteditable#what)
 - [Разворачиваем изображения с помощью HTML5 contenteditable](http://css-tricks.com/expanding-images-html5/)
-
-_Перевод [Антона Немцева](http://twitter.com/silentimp), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._

@@ -1,8 +1,17 @@
 ---
-title: "Метрики загрузки страницы"
-date: "2017-11-15"
+title: 'Метрики загрузки страницы'
+date: 2017-11-15
+author:
+    name: 'Артём Денисов'
+    url: 'https://medium.com/@denar90'
+editor:
+    name: 'Вадима Макеева'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
-tags: article
+tags:
+  - article
+  - js
+  - performance
 ---
 
 Что все они означают?
@@ -264,5 +273,3 @@ Visually Complete
         entryTypes: ["resource", "mark", "measure"],
         buffered: true
     });
-
-_Автор [Артём Денисов](https://medium.com/@denar90), редактура [Вадима Макеева](https://medium.com/@pepelsbey)._
