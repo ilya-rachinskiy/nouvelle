@@ -5,11 +5,15 @@ source:
     title: 'Tabbed Interfaces'
     url: https://inclusive-components.design/tabbed-interfaces/
     author: 'Хейдона Пикеринга'
+translator:
+    name: 'Татьяна Фокина'
+    url: 'https://medium.com/@fokinatatiana'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags: article
 ---
-
-## Перевод «Tabbed Interfaces»   Хейдона Пикеринга.
 
 ![](images/3-tabs-example.png)
 
@@ -253,5 +257,3 @@ tags: article
 * Убедитесь, что интерфейсы, которые выглядят как вкладки, имеют ожидаемую семантику и поведение.
 
 * Одностраничные приложения не должны выглядеть и вести себя как вкладки несмотря на то, что в них используется JavaScript для переключения между панелями содержимого или для наполнения их содержимым.
-
-_Перевод [Татьяны Фокиной](https://medium.com/@fokinatatiana?source=post_page---------------------------), редактура [Вадима Макеева](https://medium.com/@pepelsbey?source=post_page---------------------------)._
