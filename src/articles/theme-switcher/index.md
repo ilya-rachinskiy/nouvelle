@@ -5,11 +5,15 @@ source:
     title: 'A Theme Switcher'
     url: https://inclusive-components.design/a-theme-switcher/
     author: 'Хейдона Пиккеринга'
+translator:
+    name: 'Татьяна Фокина'
+    url: 'https://medium.com/@fokinatatiana'
+editor:
+    name: 'Вадим Макеев'
+    url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags: article
 ---
-
-## Перевод статьи «A Theme Switcher» Хейдона Пиккеринга.
 
 ![](images/black-and-white-themes.png)
 
@@ -362,5 +366,3 @@ tags: article
 * Используйте семантическую разметку в React-компоненте: такие компоненты всегда будут работать!
 
 * Используйте пропсы для того, чтобы сделать ваши компоненты более конфигурируемыми и иметь возможность использовать их много раз.
-
-_Перевод [Татьяны Фокиной](https://medium.com/@fokinatatiana?source=post_page---------------------------), редактура [Вадима Макеева](https://medium.com/@pepelsbey?source=post_page---------------------------)._
