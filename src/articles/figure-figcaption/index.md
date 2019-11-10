@@ -1,14 +1,16 @@
 ---
 title: 'Элементы figure и figcaption'
 date: 2012-03-12
+author:
+    name: 'Ричард Кларк'
+    url: 'https://html5doctor.com/author/richc/'
 source:
     title: 'The figure & figcaption elements'
     url: 'https://html5doctor.com/the-figure-figcaption-elements/'
-    author: 'Ричард Кларк'
-translator:
-    name: 'Екатерина Мордвина'
-editor:
-    name: 'Вадим Макеев'
+translators:
+  - name: 'Екатерина Мордвина'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

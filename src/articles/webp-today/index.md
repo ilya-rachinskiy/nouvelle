@@ -1,15 +1,17 @@
 ---
 title: 'WebP сегодня: зачем и как?'
 date: 2018-12-25
+author:
+    name: 'Ире Адеринокун'
+    url: 'https://ireaderinokun.com/'
 source:
     title: 'Why and how to use WebP images today'
     url: 'https://bitsofco.de/why-and-how-to-use-webp-images-today/'
-    author: 'Ире Адеринокун'
-translator:
-    name: 'Владислав Ермолин'
+translators:
+  - name: 'Владислав Ермолин'
     url: 'https://medium.com/@electrovladyslav'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

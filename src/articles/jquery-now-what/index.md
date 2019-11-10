@@ -1,14 +1,16 @@
 ---
 title: 'Я знаю jQuery. И что?'
 date: 2013-12-16
+author:
+    name: 'Реми Шарп'
+    url: 'http://remysharp.com/'
 source:
     title: 'I know jQuery. Now what?'
     url: 'http://remysharp.com/2013/04/19/i-know-jquery-now-what/'
-    author: 'Рем Шарп'
-translator:
-    name: 'Влад Андерсен'
+translators:
+  - name: 'Влад Андерсен'
     url: 'http://www.facebook.com/vlad.andersen'
-editor:
+editors:
   - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
   - name: 'Ольга Алексашенко'

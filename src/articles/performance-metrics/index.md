@@ -4,8 +4,8 @@ date: 2017-11-15
 author:
     name: 'Артём Денисов'
     url: 'https://medium.com/@denar90'
-editor:
-    name: 'Вадима Макеева'
+editors:
+  - name: 'Вадима Макеева'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

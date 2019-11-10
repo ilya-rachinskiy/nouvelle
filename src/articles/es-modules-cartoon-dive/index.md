@@ -1,15 +1,17 @@
 ---
 title: 'Глубокое погружение в ES-модули в картинках'
 date: 2018-03-30
+author:
+    name: 'Лин Кларк'
+    url: 'https://twitter.com/linclark'
 source:
     title: 'ES modules: A cartoon deep-dive'
     url: 'https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/'
-    author: 'Лин Кларк'
-translator:
-    name: 'Артур Храбров'
+translators:
+  - name: 'Артур Храбров'
     url: 'https://medium.com/@nzvtrkk'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

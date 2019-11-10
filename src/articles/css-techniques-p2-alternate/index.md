@@ -4,8 +4,8 @@ date: 2013-06-28
 author:
     name: 'Лев Солнцев'
     url: 'https://twitter.com/ruGreLI'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

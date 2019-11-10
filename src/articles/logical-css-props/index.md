@@ -1,15 +1,17 @@
 ---
 title: 'Новые логические свойства в CSS!'
 date: 2019-02-06
+author:
+    name: 'Элад Шехтер'
+    url: 'https://medium.com/@elad'
 source:
     title: 'New CSS Logical Properties!'
     url: 'https://medium.com/p/bc6945311ce7'
-    author: 'Элад Шехтер'
-translator:
-    name: 'Алёна Батицкая'
+translators:
+  - name: 'Алёна Батицкая'
     url: 'https://medium.com/@ABatickaya'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

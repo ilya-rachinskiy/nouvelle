@@ -1,15 +1,17 @@
 ---
 title: 'Руководство для прохождения интервью по фронтенду'
 date: 2018-02-21
+author:
+    name: 'Юн Хен Тай'
+    url: 'https://github.com/yangshun'
 source:
     title: 'Front-end interview handbook'
     url: 'https://github.com/yangshun/front-end-interview-handbook'
-    author: 'Юн Хен Тай'
-translator:
-    name: 'Алёна Батицкая'
+translators:
+  - name: 'Алёна Батицкая'
     url: 'https://medium.com/@ABatickaya'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

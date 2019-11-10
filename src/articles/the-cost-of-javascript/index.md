@@ -1,15 +1,17 @@
 ---
 title: 'Сколько стоит JavaScript?'
 date: 2017-11-21
+author:
+    name: 'Эдди Османи'
+    url: 'https://medium.com/@addyosmani'
 source:
     title: 'The Cost Of JavaScript'
     url: 'https://medium.com/p/84009f51e99e'
-    author: 'Эдди Османи'
-translator:
-    name: 'Артур Храбров'
+translators:
+  - name: 'Артур Храбров'
     url: 'https://medium.com/@nzvtrkk'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

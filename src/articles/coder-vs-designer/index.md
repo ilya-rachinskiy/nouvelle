@@ -4,8 +4,8 @@ date: 2010-06-22
 author:
     name: 'Ольга Алексашенко'
     url: 'https://moikrug.ru/engel-t'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

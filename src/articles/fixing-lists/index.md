@@ -1,15 +1,17 @@
 ---
 title: '«Исправление» списков'
 date: 2019-01-21
+author:
+    name: 'Скотт О’Хара'
+    url: 'https://www.scottohara.me/'
 source:
-    title: '„Fixing“ Lists'
+    title: 'Fixing Lists'
     url: 'https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html'
-    author: 'Скотт О’Хара'
-translator:
-    name: 'Татьяна Фокина'
+translators:
+  - name: 'Татьяна Фокина'
     url: 'https://medium.com/@fokinatatiana'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:

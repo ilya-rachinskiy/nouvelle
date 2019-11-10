@@ -4,7 +4,7 @@ date: 2013-12-13
 author:
     name: 'Илья Заяц'
     url: 'http://svable.com/'
-editor:
+editors:
   - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
   - name: 'Ольга Алексашенко'

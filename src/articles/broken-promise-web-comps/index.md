@@ -1,15 +1,17 @@
 ---
 title: 'Невыполненные обещания веб-компонентов'
 date: 2017-04-17
+author:
+    name: 'Дмитрий Димант'
+    url: 'https://dmitriid.com/'
 source:
     title: 'The broken promise of Web Components'
     url: 'https://dmitriid.com/blog/2017/03/the-broken-promise-of-web-components/'
-    author: 'Дмитрий Димант'
-translator:
-    name: 'Владислав Почепцов'
+translators:
+  - name: 'Владислав Почепцов'
     url: 'https://medium.com/@vlad_poe'
-editor:
-    name: 'Вадим Макеев'
+editors:
+  - name: 'Вадим Макеев'
     url: 'https://twitter.com/pepelsbey'
 layout: article.njk
 tags:
@@ -18,7 +20,7 @@ tags:
   - js
 ---
 
-<img src="images/cover.jpg" alt="">
+<img src="images/cover.jpg" alt="Чёрно-белая фотография паутины.">
 
 **Дисклеймер:** в статье я часто говорю о React, но вы можете понимать под ним любую библиотеку на JavaScript: Inferno, Preact, Vue, Snabbdom, Virtual DOM или без него: Elm, Om и другие. Точно так же под Polymer можно иметь в виду Vaadin или X-Tag, или…
 
@@ -79,7 +81,7 @@ Reaсt позволяет следующее:
 
 В 2017 спецификация веб-компонентов всё ещё [в разработке](http://caniuse.com/#search=web%20components), и это несмотря на выход двух версий для каждого из двух базовых стандартов. На момент написания статьи (март 2017) ситуация с поддержкой такая:
 
-<img src="images/caniuse.jpg" alt="">
+<img src="images/caniuse.jpg" alt="Таблица поддержки веб-компонентов с «Can I use…»">
 
 ## Так о каких невыполненных обещаниях идёт речь?
 

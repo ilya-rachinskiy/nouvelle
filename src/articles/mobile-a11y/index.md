@@ -1,14 +1,16 @@
 ---
 title: 'Советы по доступности интерактивных элементов на мобильных устройствах'
 date: 2019-02-21
+author:
+    name: 'Ире Адеринокун'
+    url: 'https://bitsofco.de/'
 source:
     title: 'Tips for making interactive elements accessible on mobile devices'
     url: 'https://bitsofco.de/tips-for-making-interactive-elements-accessible-on-mobile-devices/'
-    author: 'Ире Адеринокун'
-translator:
-    name: 'Алёна Батицкая'
+translators:
+  - name: 'Алёна Батицкая'
     url: 'https://medium.com/@ABatickaya'
-editor:
+editors:
   - name: 'Наталья Рыжова'
     url: 'https://www.facebook.com/natalia.ryzhova.71'
   - name: 'Вадим Макеев'
@@ -19,11 +21,6 @@ tags:
   - html
   - a11y
 ---
-
-<figure>
-    <img src="images/1.gif" alt="Адаптивные экраны Меган Фрейсер.">
-	<figcaption><a href="https://dribbble.com/shots/5404310-Responsive-Screens">Responsive Screens</a> by <a href="https://dribbble.com/grateful_meg">Meagan Fraser</a></figcaption>
-</figure>
 
 [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) — это набор правил для создания доступных сайтов. Вторая версия была опубликована в 2008 году, еще перед тем, как стало возможно просматривать сайты на мобильных устройствах.
 
@@ -59,7 +56,7 @@ tags:
     <img src="images/4.png" alt="Лента Твиттера в покое.">
     <img src="images/5.png" alt="Лента Твиттера потянута вниз.">
     <img src="images/6.png" alt="Появление спиннера вверху ленты.">
-	<figcaption>При прокручивании вверх страницы профиля в мобильном Твиттере, появляется иконка «потянуть чтобы обновить»</figcaption>
+    <figcaption>При прокручивании вверх страницы профиля в мобильном Твиттере, появляется иконка «потянуть чтобы обновить»</figcaption>
 </figure>
 
 ## Обеспечьте разумные размер и положение интерактивной цели
