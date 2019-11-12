@@ -32,7 +32,7 @@ tags: article
 
 ## Евросоюз
 
-![Фото [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).](1*67QECQ9Le5Jmrmr6iFp9AQ.jpeg)*Фото [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).*
+![Фото [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).](images/europe-flag.jpg)_Фото [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash)._
 
 Принятие законов о доступности в Европе запустила [Конвенция ООН о защите прав людей с инвалидностью](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html) (Convention on the Rights of Persons with Disabilities — CRPD). Она принята в 2006 году и запрещает дискриминацию людей с инвалидностью.
 
@@ -168,7 +168,8 @@ tags: article
 
 European Accessibility Act — EAA
 
-![Доступность для **всех**. С [edf-feph.org](http://www.edf-feph.org/european-accessibility-act-1).](1*cafjYN8kzLzVlmB-q3pE7Q.jpeg)*Доступность для **всех**. С [edf-feph.org](http://www.edf-feph.org/european-accessibility-act-1).*
+![Доступность для **всех**. С [edf-feph.org](http://www.edf-feph.org/european-accessibility-act-1).](images/accessibility-for-all.jpg)
+_Доступность для **всех**. С [edf-feph.org](http://www.edf-feph.org/european-accessibility-act-1)._
 
 Закон утверждён Европарламентом в Страсбурге весной 2019 года. Сейчас дорабатывается.
 
@@ -290,7 +291,8 @@ Standard EN 301 549 — EN 301 549
 
 ## США
 
-![Фото [Matthis Volquardsen](https://www.pexels.com/ru-ru/@einfoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](1*wO-HHrkzDv68ca91uQDN2A.jpeg)*Фото [Matthis Volquardsen](https://www.pexels.com/ru-ru/@einfoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).*
+![Фото [Matthis Volquardsen](https://www.pexels.com/ru-ru/@einfoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](images/usa-flag.jpg)
+_Фото [Matthis Volquardsen](https://www.pexels.com/ru-ru/@einfoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels)._
 
 Если вы интересуетесь темой доступности, то скорее всего уже что-то слышали о двух американских законах: Разделе 508 и ADA. Давайте их разберём.
 
@@ -358,7 +360,8 @@ Section 508, 508 Compliance
 
 ### Что, если я его нарушу?
 
-![В любой статье о законах должна быть картинка с молотком судьи. Фото [Pixabay](https://www.pexels.com/ru-ru/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](1*hnaoxkCFQnukERNMjXeQ3Q.jpeg)*В любой статье о законах должна быть картинка с молотком судьи. Фото [Pixabay](https://www.pexels.com/ru-ru/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).*
+![В любой статье о законах должна быть картинка с молотком судьи. Фото [Pixabay](https://www.pexels.com/ru-ru/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](images/gavel.jpg)
+_В любой статье о законах должна быть картинка с молотком судьи. Фото [Pixabay](https://www.pexels.com/ru-ru/@pixabay?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels)._
 
 Требования «Раздела 508» жёстче, чем у других американских законов.
 
@@ -478,7 +481,8 @@ ADA — это закон, который защищает права людей
 
 ## Россия
 
-![Фото [Ajinkya Tandle](https://www.pexels.com/ru-ru/@ajtandle?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](1*xBObY857dqPQ77AsrEPwpg.jpeg)*Фото [Ajinkya Tandle](https://www.pexels.com/ru-ru/@ajtandle?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).*
+![Фото [Ajinkya Tandle](https://www.pexels.com/ru-ru/@ajtandle?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels).](images/russia-flag.jpg)
+_Фото [Ajinkya Tandle](https://www.pexels.com/ru-ru/@ajtandle?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) (Pexels)._
 
 Веб-доступность в России регулируется тремя законодательными актами и одним стандартом:
 
@@ -492,7 +496,7 @@ ADA — это закон, который защищает права людей
 
 ## Федеральный закон № 419-ФЗ
 
-У закона _лаконичное_ название «Федеральный закон от 1 декабря 2014 года № 419-ФЗ** **„О внесении изменений в отдельные законодательные акты Российской Федерации по вопросам социальной защиты инвалидов в связи с ратификацией конвенции о правах инвалидов“». Вступил в силу в январе 2016.
+У закона _лаконичное_ название «Федеральный закон от 1 декабря 2014 года № 419-ФЗ „О внесении изменений в отдельные законодательные акты Российской Федерации по вопросам социальной защиты инвалидов в связи с ратификацией конвенции о правах инвалидов“». Вступил в силу в январе 2016.
 
 Он запрещает дискриминацию людей по признаку инвалидности. Основан на [Конвенции ООН о защите прав людей с инвалидностью](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html) и [Федеральном законе № 181-ФЗ «О социальной защите инвалидов в Российской Федерации»](http://www.consultant.ru/document/cons_doc_LAW_8559/).
 
@@ -603,13 +607,14 @@ ADA — это закон, который защищает права людей
 
 На самом деле мы снова встретим требования из [WCAG 2.0](https://www.w3.org/TR/WCAG20/), которые ограничиваются _отдельной_ версией сайта для слепых и слабовидящих.
 
-![На [сайте Роскосмоса](https://www.roscosmos.ru/) что-то пошло не так.](1*EEpkXVpnyEkgm2RekrS6Zg.png)*На [сайте Роскосмоса](https://www.roscosmos.ru/) что-то пошло не так.*
+![На [сайте Роскосмоса](https://www.roscosmos.ru/) что-то пошло не так.](images/special-roscosmos-site.png)
+_На [сайте Роскосмоса](https://www.roscosmos.ru/) что-то пошло не так._
 
 ### Что, если я его нарушу?
 
 Если вы работаете в государственных организациях, то можете понести дисциплинарную, административную, гражданскую и уголовную ответственность.
 
-Это** [**статья 5.62](http://www.consultant.ru/document/cons_doc_LAW_34661/8b36cedfef8c1b205cdbdcd85ee7a7dc250f5109/) Кодекса об административных правонарушениях или [статья 136](http://www.consultant.ru/document/cons_doc_LAW_10699/67c198fece5202f893460246a15f884f72173c28/) Уголовного Кодекса. О них я уже рассказала в разделе про Федеральный закон №419-ФЗ.
+Это [статья 5.62](http://www.consultant.ru/document/cons_doc_LAW_34661/8b36cedfef8c1b205cdbdcd85ee7a7dc250f5109/) Кодекса об административных правонарушениях или [статья 136](http://www.consultant.ru/document/cons_doc_LAW_10699/67c198fece5202f893460246a15f884f72173c28/) Уголовного Кодекса. О них я уже рассказала в разделе про Федеральный закон №419-ФЗ.
 
 ### Полезные ссылки
 
@@ -659,12 +664,13 @@ ADA — это закон, который защищает права людей
 
 ГОСТ Р 52872–2012 Интернет-ресурсы. Требования доступности для инвалидов по зрению
 
-![Таблица Снеллена. Фото [David Travis](https://unsplash.com/@dtravisphd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).](1*1OScmARWWsZYfd6_YcyKEQ.jpeg)*Таблица Снеллена. Фото [David Travis](https://unsplash.com/@dtravisphd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).*
+![Таблица Снеллена. Фото [David Travis](https://unsplash.com/@dtravisphd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash).](images/snellen-chart.jpg)
+_Таблица Снеллена. Фото [David Travis](https://unsplash.com/@dtravisphd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) (Unsplash)._
 
 Введён в 2014 после ратификации Россией в мае 2012 года [Конвенции о правах людей с инвалидностью](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html), содержит рекомендации о доступности сайтов и их контента.
 
 Доступность для людей с нарушениями зрения — это
-> Возможность полноценного доступа инвалидов по зрению ко всем компонентам электронных ресурсов сети Интернет.
+> Возможность полноценного доступа инвалидов по зрению ко всем компонентам электронных ресурсов сети Интернeт.
 
 ### Кого защищает
 
@@ -729,13 +735,13 @@ ADA — это закон, который защищает права людей
 
 Руководство основано на четырёх базовых принципах:
 
-1. **Воспринимаемость: **Пользовательские интерфейсы и информация в них должны быть представлены только в том виде, который могут воспринимать любые пользователи.
+1. **Воспринимаемость:** Пользовательские интерфейсы и информация в них должны быть представлены только в том виде, который могут воспринимать любые пользователи.
 
-1. **Управляемость: **Навигация должна быть доступна для всех пользователей, включая тех, кто пользуется клавиатурой или вспомогательными технологиями.
+1. **Управляемость:** Навигация должна быть доступна для всех пользователей, включая тех, кто пользуется клавиатурой или вспомогательными технологиями.
 
-1. **Понятность: **Контент и дизайн пользовательского интерфейса должен быть понятным каждому пользователю.
+1. **Понятность:** Контент и дизайн пользовательского интерфейса должен быть понятным каждому пользователю.
 
-1. **Надёжность: **Контент должен быть надёжным и отображаться на всех устройствах и во всех программах и приложениях, которые используют пользователи, в том числе вспомогательные технологии.
+1. **Надёжность:** Контент должен быть надёжным и отображаться на всех устройствах и во всех программах и приложениях, которые используют пользователи, в том числе вспомогательные технологии.
 
 Сокращённо все принципы называются POUR по их первым буквам: **P**erceivable, **O**perable, **U**nderstandable, **R**obust.
 
