@@ -1,18 +1,14 @@
 ---
 title: 'Сколько стоит JavaScript?'
 date: 2017-11-21
-author:
-    name: 'Эдди Османи'
-    url: 'https://medium.com/@addyosmani'
+author: addy-osmani
 source:
     title: 'The Cost Of JavaScript'
     url: 'https://medium.com/p/84009f51e99e'
 translators:
-  - name: 'Артур Храбров'
-    url: 'https://medium.com/@nzvtrkk'
+  - artur-khrabrov
 editors:
-  - name: 'Вадим Макеев'
-    url: 'https://twitter.com/pepelsbey'
+  - vadim-makeev
 layout: article.njk
 tags:
   - article
@@ -198,7 +194,7 @@ JavaScript может влиять на производительность с�
 
 ### Подробнее
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_srJ7eHS3IM" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_srJ7eHS3IM" allowfullscreen></iframe>
 
 - [JavaScript Start-up Performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
 - [Solving the web performance crisis](https://nolanlawson.github.io/frontendday-2016/) Нолана Лоусон

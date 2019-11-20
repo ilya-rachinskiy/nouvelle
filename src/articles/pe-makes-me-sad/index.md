@@ -1,15 +1,12 @@
 ---
 title: 'Прогрессивное улучшение меня расстраивает'
 date: 2016-03-22
-author:
-    name: 'Хейдон Пикеринг'
-    url: 'https://www.heydonworks.com/'
+author: heydon-pickering
 source:
     title: 'Progressive enhancement makes me sad'
     url: 'https://www.heydonworks.com/article/progressive-enhancement-makes-me-sad'
 translators:
-  - name: 'Вадим Макеев'
-    url: 'https://twitter.com/pepelsbey'
+  - vadim-makeev
 layout: article.njk
 tags:
   - article
@@ -39,8 +36,12 @@ tags:
 
 Конечные пользователи — это такое неизвестное множество, и мы мало что можем с этим сделать. С другой стороны, я уже знаю много чего о _себе_ потому, что я — _это я_. Мне стоит пользоваться всеми преимуществами такой инсайдерской информации.
 
-![Целевой рынок или «верхушка колокола»](images/1.png)
-_Целевой рынок или «верхушка колокола»_
+<figure>
+    <img src="images/1.png" alt="">
+    <figcaption>
+        Целевой рынок или «верхушка колокола».
+    </figcaption>
+<figure>
 
 И что же я знаю о себе? Ну, для начала, у меня вполне неплохое окружение: оптика, 16 Гб оперативки. А ещё я не выношу работы с прогрессивным улучшением, **фу, гадость**. (См. пункт №1).
 
