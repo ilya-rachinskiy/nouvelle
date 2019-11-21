@@ -255,6 +255,7 @@ tmpl.innerHTML = `
         h2 {
             margin: 0;
         }
+
         h2 button {
             all: inherit;
             box-sizing: border-box;
