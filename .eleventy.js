@@ -108,7 +108,7 @@ module.exports = function(config) {
                 const colorBasis = authorName.length;
 
                 const colorCls = getBlobClass(colorBasis, blobColorArr, colorPrefixCls);
-                const shapeCls = getBlobClass(shapeBasis, blobShapeArr, shapePrefixCls)
+                const shapeCls = getBlobClass(shapeBasis, blobShapeArr, shapePrefixCls);
 
                 callback(null, new nunjucksEngine.runtime.SafeString(colorCls.concat(' ', shapeCls)));
             };

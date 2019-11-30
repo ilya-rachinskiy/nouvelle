@@ -34,8 +34,7 @@ layout: page.njk
         <div class="article__authors authors">
             <div class="authors__author">
                 {% for author in collections.people | filterPeople(author) %}
-                    <img class="
-                            authors__author-avatar {% blob author.name %}"
+                    <img class="authors__author-avatar {% blob author.name %}"
                         src="/images/author--placeholder.jpg"
                         width="113" height="104" alt="{{ author.name }}">
                     <a class="authors__author-link" href="{{ author.url }}">
