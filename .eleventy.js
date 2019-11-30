@@ -88,29 +88,37 @@ module.exports = function(config) {
             this.tags = ['blob'];
 
             this.parse = function (parser, nodes, lexer) {
-                var tok = parser.nextToken();
+                const token = parser.nextToken();
 
-                var args = parser.parseSignature(null, true);
-                parser.advanceAfterBlockEnd(tok.value);
+                const arguments = parser.parseSignature(null, true);
+                parser.advanceAfterBlockEnd(token.value);
 
-                return new nodes.CallExtensionAsync(this, 'run', args);
+                return new nodes.CallExtensionAsync(this, 'run', arguments);
             };
 
             this.run = function (context, authorName, callback) {
-                const blobColorArr = ['teal', 'lightteal', 'moss', 'grass'];
-                const blobShapeArr = [1, 2, 3, 4, 5, 6, 7];
-                const shapePrefixCls = 'blob--shape-';
-                const colorPrefixCls = 'blob--';
+                const blobColors = ['teal', 'lightteal', 'moss', 'grass'];
+                const blobShapes = [1, 2, 3, 4, 5, 6, 7];
+                const shapePrefix = 'blob--shape-';
+                const colorPrefix = 'blob--';
 
-                const getBlobClass = (basis, blobArr, cls) => cls.concat(blobArr[basis % blobArr.length]);
+                const getBlobClass = (basis, array, name) => (
+                    name.concat(array[basis % array.length])
+                );
 
-                const shapeBasis = authorName.split('').reduce((prev, curr) => prev + curr.charCodeAt(0), 0);
+                const shapeBasis = authorName.split('').reduce(
+                    (previous, current) => previous + current.charCodeAt(0), 0
+                );
                 const colorBasis = authorName.length;
 
-                const colorCls = getBlobClass(colorBasis, blobColorArr, colorPrefixCls);
-                const shapeCls = getBlobClass(shapeBasis, blobShapeArr, shapePrefixCls);
+                const colorClass = getBlobClass(colorBasis, blobColors, colorPrefix);
+                const shapeClass = getBlobClass(shapeBasis, blobShapes, shapePrefix);
 
-                callback(null, new nunjucksEngine.runtime.SafeString(colorCls.concat(' ', shapeCls)));
+                callback(
+                    null, new nunjucksEngine.runtime.SafeString(
+                        colorClass.concat(' ', shapeClass)
+                    )
+                );
             };
         }();
     });
