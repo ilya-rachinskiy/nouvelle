@@ -83,9 +83,9 @@ module.exports = function(config) {
             });
     });
 
-    config.addNunjucksTag("blob", function (nunjucksEngine) {
+    config.addNunjucksTag('blob', function (nunjucksEngine) {
         return new function () {
-            this.tags = ["blob"];
+            this.tags = ['blob'];
 
             this.parse = function (parser, nodes, lexer) {
                 var tok = parser.nextToken();
@@ -93,7 +93,7 @@ module.exports = function(config) {
                 var args = parser.parseSignature(null, true);
                 parser.advanceAfterBlockEnd(tok.value);
 
-                return new nodes.CallExtensionAsync(this, "run", args);
+                return new nodes.CallExtensionAsync(this, 'run', args);
             };
 
             this.run = function (context, authorName, callback) {
