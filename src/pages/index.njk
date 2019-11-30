@@ -15,13 +15,8 @@ permalink: index.html
                 {{ article.date | ruDate }}
             </time>
 
-            {% set blobColor %}{{ ['teal', 'lightteal', 'moss', 'grass'] | random }}{% endset %}
-            {% set blobShape %}{{ [1, 2, 3, 4, 5, 6, 7] | random }}{% endset %}
-
             {% for author in collections.people | filterPeople(article.data.author) %}
-                <img class="preview__photo
-                        blob--{{ blobColor }}
-                        blob--shape-{{ blobShape }}"
+                <img class="preview__photo {% blob author.name %}"
                     src="/images/author--placeholder.jpg"
                     width="113" height="104"
                     alt="{{ author.name }}">
