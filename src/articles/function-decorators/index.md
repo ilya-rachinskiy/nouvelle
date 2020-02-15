@@ -1,5 +1,5 @@
 ---
-title: 'Функции-декораторы, которые можно написать с нуля'
+title: 'Функции-декораторы, которые можно написать с нуля'
 date: 2018-06-13
 author: cristian-salcescu
 source:
@@ -20,7 +20,7 @@ tags:
     <figcaption>
         Фото <a href="https://unsplash.com/photos/rkT_TG5NKF8">Calum Lewis</a>.
     </figcaption>
-<figure>
+</figure>
 
 > Декораторы — это функции высшего порядка, которые принимают в качестве аргумента одну функцию и возвращают другую. Возвращаемая функция является преобразованным вариантом функции-аргумента [Javascript Allongé](https://leanpub.com/javascript-allonge/read#decorators)
 

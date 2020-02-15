@@ -1,5 +1,5 @@
 ---
-title: ' Инклюзивные компоненты: интерфейсы со вкладками'
+title: ' Инклюзивные компоненты: интерфейсы со вкладками'
 date: 2019-09-30
 author: heydon-pickering
 source:
@@ -39,7 +39,7 @@ section:not(:target) {
 }
 ```
 
-<iframe src="https://codepen.io/heydon/pen/VMMrgN"></iframe>
+<iframe src="https://codepen.io/heydon/embed/VMMrgN"></iframe>
 
 Давая пользователям возможность раскрывать контент, мы превращаем наше оглавление во вкладки с помощью CSS. Поскольку `display: none` скрывает контент от вспомогательных технологий, то это улучшение затрагивает пользователей скринридеров так же, как и всех остальных.
 
@@ -188,7 +188,7 @@ tab.addEventListener('keydown', e => {
 
 Вот [демо со вкладками на CodePen](https://codepen.io/heydon/pen/veeaEa/), которое написано на JavaScript. Также там есть пояснения о поведении элементов и их семантике. Это список ссылок и элементов `<section>`, которые были прогрессивно улучшены и минифицированы до 1,3 Кб:
 
-<iframe src="https://codepen.io/heydon/pen/veeaEa/"></iframe>
+<iframe src="https://codepen.io/heydon/embed/veeaEa/"></iframe>
 
 ## Адаптивный дизайн
 

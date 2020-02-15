@@ -1,5 +1,5 @@
 ---
-title: 'Новые логические свойства в CSS!'
+title: 'Новые логические свойства в CSS!'
 date: 2019-02-06
 author: elad-shechter
 source:
@@ -256,7 +256,7 @@ html {
 
 [Демо](https://codepen.io/elad2412/pen/oQJmYQ/) (попробуйте поменять язык):
 
-<iframe src="https://codepen.io/elad2412/pen/oQJmYQ/"></iframe>
+<iframe src="https://codepen.io/elad2412/embed/oQJmYQ/"></iframe>
 
 ## Браузерная поддержка
 
