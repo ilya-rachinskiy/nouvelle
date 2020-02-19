@@ -14,7 +14,7 @@ tags: article
 
 <figure>
     <img src="images/slider.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -61,12 +61,12 @@ tags: article
 
 ```css
 .slider {
-  overflow-x: scroll;
-}   
-  
+    overflow-x: scroll;
+}
+
 .slider li {
-  display: inline-block;
-  white-space: nowrap;
+    display: inline-block;
+    white-space: nowrap;
 }
 ```
 
@@ -74,7 +74,7 @@ tags: article
 
 <figure>
     <img src="images/horizontal-scroll.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ tags: article
 Чтобы дать пользователям возможность сделать фокус на слайдере, нам нужно добавить `tabindex="0"`. Поскольку элемент (на котором сделан фокус) будет теперь объявлен скринридерами, мы должны присвоить ему роль и добавить подпись, которые его идентифицируют. В последующих демо мы будем использовать слайдер для показа произведений искусства, поэтому подпись «Галерея» кажется подходящей.
 
 ```html
-<div role="region" aria-label="Галерея" tabindex="0">  
+<div role="region" aria-label="Галерея" tabindex="0">
     <!-- Список изображений галереи -->
 </div>
 ```
@@ -102,11 +102,11 @@ tags: article
 
 ```css
 [aria-label="gallery"]:focus {
-  outline: 4px solid DodgerBlue;
-  outline-offset: -6px; /* компенсируем 2px у border */
+    outline: 4px solid DodgerBlue;
+    outline-offset: -6px; /* компенсируем 2px у border */
 }
 ```
-    
+
 <iframe src="https://codepen.io/heydon/embed/preview/XzzaKv" frameborder=0></iframe>
 
 ## Возможность действия
@@ -119,17 +119,17 @@ tags: article
 
 ```css
 #hover {
-  display: none;
+    display: none;
 }
 
 [aria-label="gallery"]:hover + .instructions #hover {
-  display: block;
+    display: block;
 }
 ```
 
 <figure>
     <img src="images/scroll-instructions.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -138,21 +138,21 @@ tags: article
 Для этого можем использовать атрибут `aria-describedby`. Мы указываем его для сообщения с фокусом, используя значение `id` в качестве содержимого для ARIA-атрибута:
 
 ```html
-<div role="region" aria-label="gallery" tabindex="0" aria-describedby="focus">  
-  <!-- Список изображений галереи -->
-</div>  
-<div class="instructions">  
-  <p id="hover">Прокрутите, чтобы увидеть больше.</p>
-  <p id="focus">Используйте клавиши со стрелками для того, чтобы увидеть больше.</p>
+<div role="region" aria-label="gallery" tabindex="0" aria-describedby="focus">
+    <!-- Список изображений галереи -->
 </div>
-```    
+<div class="instructions">
+    <p id="hover">Прокрутите, чтобы увидеть больше.</p>
+    <p id="focus">Используйте клавиши со стрелками для того, чтобы увидеть больше.</p>
+</div>
+```
 
 Теперь, когда фокус устанавливается на галерее слайдера, скринридеры объявят что-то вроде этого: _«Галерея изображений, область, используйте клавиши со стрелками для того, чтобы увидеть больше»_. Как дальше описано в примечании про мультимодальность, убедитесь, что пользователям скринридеров будет просто войти в эту область и пройти через каждое изображение в определённом порядке в «режиме просмотра» (в нём они проходят через каждый элемент). Другими словами, слайдер мультимодален даже для этой группы пользователей.
 
 <figure>
     <img src="images/focus-container.png" alt="">
     <figcaption>
-       Путь пользователя скринридера в режиме просмотра во многом похож на путь пользователя клавиатуры при наличии связанных/интерактивных слайдов. В любом случае, браузер или скринридер сдвинет контейнер, чтобы показать элементы, на которые сделан фокус. 
+            Путь пользователя скринридера в режиме просмотра во многом похож на путь пользователя клавиатуры при наличии связанных/интерактивных слайдов. В любом случае, браузер или скринридер сдвинет контейнер, чтобы показать элементы, на которые сделан фокус.
     </figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ tags: article
 ```css
 [aria-label="gallery"]:hover:focus +
 .instructions #hover-and-focus {
-  display: block;
+    display: block;
 }
 ```
 
@@ -174,11 +174,12 @@ tags: article
 ```css
 [aria-label="gallery"]:hover:focus +
 .instructions #hover-and-focus ~ * {
-  display: none;
+    display: none;
 }
-```    
+```
 
 Попробуйте навестись на слайдер в демо, а затем кликнуть по нему:
+
 <iframe src="https://codepen.io/heydon/embed/preview/MOoMox" frameborder=0></iframe>
 
 ## Обработка тача
@@ -190,21 +191,21 @@ tags: article
 Важно то, что мы не хотим отслеживать поддержку тача на уровне устройства, так как многие поддерживают его наравне с другими способами. Мы просто хотим знать, что _пользователь коснулся_ экрана. Это возможно с помощью отслеживания одного события `touchstart`. Вот крошечный скрипт (все лучшие скрипты такие!):
 
 ```css
-window.addEventListener('touchstart', function touched() {  
-  document.body.classList.add('touch')
-  window.removeEventListener('touchstart', touched, false)
+window.addEventListener('touchstart', function touched() {
+    document.body.classList.add('touch')
+    window.removeEventListener('touchstart', touched, false)
 }, false);
-```    
+```
 
 Всё, что делает скрипт, — это определяет событие `touchstart`, использует его для добавления `class` к элементу `<body>` и для удаления обработчика событий. Имея `class`, мы можем показать сообщение «Свайпните, чтобы увидеть больше»:
 
 ```css
 .touch .instructions p {
-  display: none !important;
-}    
+    display: none !important;
+}
 
 .touch .instructions #touch {
-  display: block !important;
+    display: block !important;
 }
 ```
 
@@ -217,24 +218,24 @@ window.addEventListener('touchstart', function touched() {
 Но пока наш слайдер на самом деле не является «слайдами», которые обычно занимают всю ширину своего контейнера. Если мы решим эту проблему адаптивно, то люди смогут любоваться каждым произведением искусства на разных размерах экрана. Также было бы неплохо иметь возможность добавлять подписи к слайдам, поэтому с этого момента будем использовать `<figure>` и `<figcaption>`.
 
 ```html
-<li>  
-  <figure>
-    <img src="[url]" alt="[Описание]">
-    <figcaption>[Название произведения искусства]</figcaption>
-  </figure>
+<li>
+    <figure>
+        <img src="[url]" alt="[Описание]">
+        <figcaption>[Название произведения искусства]</figcaption>
+    </figure>
 </li>
-```    
+```
 
 Давайте переключимся на флексы.
 
 ```css
 [aria-label="gallery"] ul {
-  display: flex;
+    display: flex;
 }
 
 [aria-label="gallery"] li {
-  list-style: none;
-  flex: 0 0 100%;
+    list-style: none;
+    flex: 0 0 100%;
 }
 ```
 
@@ -245,33 +246,33 @@ window.addEventListener('touchstart', function touched() {
 
 ```css
 [aria-label="gallery"] figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
 }
-```    
+```
 
 Значение `50vh` — это единственный _как бы фиксированный_ размер, который я использую. Нужно убедиться, что слайдер имеет адекватную высоту, но вписывается во вьюпорт. Чтобы изображение и `<figcaption>` всегда помещались в контейнер, мы пропорционально масштабируем картинку, но компенсируем ожидаемую высоту `<figcaption>`. Для этого можем использовать `calc`:
 
 ```css
 [aria-label="gallery"] figcaption {
-  padding: 0.5rem;
-  font-style: italic;
+    padding: 0.5rem;
+    font-style: italic;
 }
 
 [aria-label="gallery"] img {
-  max-width: 100%;
-  max-height: calc(100% - 2rem);
-  margin-top: 2rem;
+    max-width: 100%;
+    max-height: calc(100% - 2rem);
+    margin-top: 2rem;
 }
 ```
 
 <figure>
     <img src="images/container-size.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -289,7 +290,7 @@ window.addEventListener('touchstart', function touched() {
 
 <figure>
     <img src="images/loaded-slide.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -298,34 +299,34 @@ window.addEventListener('touchstart', function touched() {
 ```js
 const slides = document.querySelectorAll('[aria-label="gallery"] li');
 
-const observerSettings = {  
-  root: document.querySelector('[aria-label="gallery"]');
+const observerSettings = {
+    root: document.querySelector('[aria-label="gallery"]');
 }
 
-if ('IntersectionObserver' in window) {  
-  const callback = (slides, observer) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) {
-        return;
-      }
-      let img = entry.target.querySelector('img');
-      img.setAttribute('src', img.dataset.src);
-      observer.unobserve(entry.target);
-    })
-  }
+if ('IntersectionObserver' in window) {
+    const callback = (slides, observer) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            }
+            let img = entry.target.querySelector('img');
+            img.setAttribute('src', img.dataset.src);
+            observer.unobserve(entry.target);
+        })
+    }
 
-  const observer = new IntersectionObserver(
-    callback, observerSettings
-  );
-  slides.forEach(t => observer.observe(t));
-} else {
-  Array.prototype.forEach.call(slides, function (s) {
-    let img = s.querySelector('img');
-    img.setAttribute('src', img.getAttribute('data-src'));
-  })
-}
+    const observer = new IntersectionObserver(
+        callback, observerSettings
+    );
+    slides.forEach(t => observer.observe(t));
+    } else {
+        Array.prototype.forEach.call(slides, function (s) {
+            let img = s.querySelector('img');
+            img.setAttribute('src', img.getAttribute('data-src'));
+        })
+    }
 ```
-    
+
 - В `observerSettings` определяем внешний элемент галереи как корневой. Мы можем совершить действие тогда, когда элементы `<li>` становятся видимыми.
 - Обнаруживаем функцию при помощи `'IntersectionObserver' in window` и просто загружаем изображения, если их нет. Извините, пользователи старых браузеров, но это лучшее, что мы можем предложить: по крайне мере вы получите контент.
 - Для каждого слайда, который пересекается с другим, мы устанавливаем его `src` через атрибут `data-src`, как в случае с обычной ленивой загрузкой.
@@ -341,11 +342,11 @@ src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' /%3E"
 В данный момент пользователи с отключенным JavaScript работают без изображений, так как переключение `data-src` на `src` невозможно. Кажется, самое простое решение — добавить теги `<noscript>`, в которых содержатся изображения с уже установленными значениями `src`.
 
 ```html
-<noscript>  
-  <img src="[url]" alt="[Описание]">
+<noscript>
+    <img src="[url]" alt="[Описание]">
 </noscript>
 ```
-    
+
 <iframe src="https://codepen.io/heydon/embed/preview/Ebwjyo" frameborder=0></iframe>
 
 Теперь наш слайдер работает и без JavaScript. У нас неплохо выходит. Однако мы обрабатываем только случай «без JavaScript», который редко встречается. Это не печально распространённая ситуация со «сломанным JavaScript». Рик Шеннинк [решил эту проблему](https://twitter.com/rikschennink/status/931256220303978496), поместив `mutationObserver` в `<head>` документа. Есть [демо с этим методом](https://pqina.nl/lazy/), где Рик сначала заменяет `src` на `data-src`, и при тестировании довольно надёжно извлекает источники изображения при первой загрузке.
@@ -362,25 +363,25 @@ src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' /%3E"
 Адаптируя наш скрипт `IntersectionObserver`, мы можем добавлять и удалять класс `.visible` у слайдов:
 
 ```js
-slides.forEach(entry => {  
-  entry.target.classList.remove('visible')
-  if (!entry.isIntersecting) {
-    return
-  }
-  let img = entry.target.querySelector('img')
-  if (img.dataset.src)  {
-    img.setAttribute('src', img.dataset.src)
-    img.removeAttribute('data-src')
-  }
-  entry.target.classList.add('visible')
+slides.forEach(entry => {
+    entry.target.classList.remove('visible')
+    if (!entry.isIntersecting) {
+        return
+    }
+    let img = entry.target.querySelector('img')
+    if (img.dataset.src)  {
+        img.setAttribute('src', img.dataset.src)
+        img.removeAttribute('data-src')
+    }
+    entry.target.classList.add('visible')
 })
-```    
+```
 
 Это означает не только то, что мы найдём `class="visible"` у любого слайда, который виден на 100% (как первый слайд), но и в случае, когда пользователь прокрутил позицию между двумя слайдами. У них обоих будет этот класс.
 
 <figure>
     <img src="images/two-visible-slides.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -403,16 +404,16 @@ slides.forEach(entry => {
 Как заметил [Майкл Шарнагль](https://twitter.com/justmarkup), некоторые браузеры, включая Safari и Firefox, поддерживают простой CSS-метод фиксации слайдов при прокрутке или использовании клавиш со стрелками. Так как Safari не поддерживает `IntersectionObserver` _(уже поддерживается с [версии 12.1](https://caniuse.com/#feat=intersectionobserver), прим. переводчика)_, то это один из способов сделать удобнее пользователям этого браузера. Мешанина из проприетарных и стандартных свойств ниже: вот что сработало в нашем случае.
 
 ```css
-[aria-label="gallery"] { 
-  -webkit-overflow-scrolling: touch;
-  -webkit-scroll-snap-type: mandatory;
-  -ms-scroll-snap-type: mandatory;
-  scroll-snap-type: mandatory;
-  -webkit-scroll-snap-points-x: repeat(100%);
-  -ms-scroll-snap-points-x: repeat(100%);
-  scroll-snap-points-x: repeat(100%);
+[aria-label="gallery"] {
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+    -webkit-scroll-snap-points-x: repeat(100%);
+    -ms-scroll-snap-points-x: repeat(100%);
+    scroll-snap-points-x: repeat(100%);
 }
-```    
+```
 
 Фиксация прокрутки поддерживается в [демо со связанным контентом](https://cdpn.io/heydon/debug/xPWOLp), если хотите изучить этот способ. Совет: часть с `repeat(100%)` относится к 100% ширины каждого слайда.
 
@@ -421,19 +422,19 @@ slides.forEach(entry => {
 Если разместить две кнопки внутри списка, то дальше они будут рассматриваться как сгруппированные ненумерованные элементы. После того, как в `<ul>` добавлена поддержка `aria-label`, мы можем добавить вспомогательную групповую подпись «Контролы галереи». Так будет легче установить цель кнопок.
 
 ```html
-<ul aria-label="Контролы галереи">  
-  <li>
-    <button id="previous" aria-label="Предыдущий">
-      <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-left"></use></svg>
-    </button>
-  </li>
-  <li>
-    <button id="next" aria-label="Следующий">
-      <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-right"/></svg>
-    </button>
-  </li>
+<ul aria-label="Контролы галереи">
+    <li>
+        <button id="previous" aria-label="Предыдущий">
+            <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-left"></use></svg>
+        </button>
+    </li>
+    <li>
+        <button id="next" aria-label="Следующий">
+            <svg aria-hidden="true" focusable="false"><use xlink:href="#arrow-right"/></svg>
+        </button>
+    </li>
 </ul>
-```    
+```
 
 У каждой кнопки, конечно, должна быть собственная подпись, которая, в данном случае, так же задаётся при помощи `aria-label`. Когда пользователь скринридера столкнётся с первой кнопкой, он услышит что-то вроде: _«Назад, кнопка, список, контролы галереи, два пункта»_.
 
@@ -441,9 +442,9 @@ slides.forEach(entry => {
 
 ```css
 instructions.parentNode.insertBefore(
-  controls, instructions.nextElementSibling
+    controls, instructions.nextElementSibling
 );
-```    
+```
 
 ## Индикаторы загрузки
 
@@ -455,7 +456,7 @@ instructions.parentNode.insertBefore(
 
 <figure>
     <img src="images/image-preloader.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -469,7 +470,7 @@ instructions.parentNode.insertBefore(
 
 <figure>
     <img src="images/focus-on-initial-state.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -478,22 +479,22 @@ instructions.parentNode.insertBefore(
 Там, где поддерживается `IntersectionObserver` и рендерятся кнопки, при наличии в данный момент только видимого пункта в порядке фокуса, это станет хорошим вариантом улучшения. Мы можем поправить наш скрипт так, чтобы ссылки в пунктах, которые не пересекаются, принимали `tabindex="-1"`. Это сделает невозможным установление на них фокуса. Обратите внимание на строки с комментариями 1 и ниже:
 
 ```js
-slides.forEach(entry => {  
-  entry.target.classList.remove('visible')
-  let a = entry.target.querySelector('a')
-  a.setAttribute('tabindex', '-1') // 1
-  if (!entry.isIntersecting) {
-    return
-  }
-  let img = entry.target.querySelector('img')
-  if (img.dataset.src)  {
-    img.setAttribute('src', img.dataset.src)
-    img.removeAttribute('data-src')
-  }
-    entry.target.classList.add('visible')
-    a.removeAttribute('tabindex', '-1') // 2
+slides.forEach(entry => {
+    entry.target.classList.remove('visible')
+    let a = entry.target.querySelector('a')
+    a.setAttribute('tabindex', '-1') // 1
+    if (!entry.isIntersecting) {
+        return
+    }
+    let img = entry.target.querySelector('img')
+    if (img.dataset.src)  {
+        img.setAttribute('src', img.dataset.src)
+        img.removeAttribute('data-src')
+    }
+        entry.target.classList.add('visible')
+        a.removeAttribute('tabindex', '-1') // 2
 })
-```    
+```
 
 Просто. Теперь только один или два слайда получают фокус, в зависимости от того, сколько из них сейчас пересекаются. Так что до кнопок становится быстрее и проще добраться.
 

@@ -5,7 +5,7 @@ author: jason-pamental
 source:
     title: 'An Introduction to Variable Fonts'
     url: 'https://24ways.org/2019/an-introduction-to-variable-fonts'
-translators: 
+translators:
     - roma-zvarich
 editors:
     - vadim-makeev
@@ -35,7 +35,7 @@ tags: article
 Если у вас есть файл шрифтов и доступ к интернету, можете воспользоваться сайтом [Wakamai Fondue](https://wakamaifondue.com/) Роель Нискенс, что расшифровывается как «What Can My Font Do» _(англ. «На что способен мой шрифт», прим. переводчика)_. Просто перетащите файл шрифта и получите отчёт, показывающий, какие у шрифта есть особенности, размер файла, количество глифов, а также поддерживаемые языки и вариативные оси. Вы получите даже тестировщик типа и несколько ползунков, которые позволят поиграть с изменением разных осей. Обратите внимание на оси, значения и настройки по умолчанию. Эта информация понадобится, когда мы начнём писать CSS.
 <figure>
     <img src="images/wakamaifondue.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ tags: article
 Благодаря Джен Симмонс и команде Firefox Devtools, у нас есть несколько потрясающих инструментов для работы с веб-шрифтами прямо в браузере. В инструментах разработчика выберите текстовый элемент, использующий нужный шрифт, а затем перейдите в закладку «Fonts», расположенную справа. Вы попадёте на панель, содержащую в одном месте всю информацию о шрифте, размере, стиле и вариативных осях. Можно изменить любое из представленных значений и сразу увидеть результат в браузере, а перейдя на вкладку «Changes», легко скопировать изменённый CSS-код для переноса к себе.
 <figure>
     <img src="images/devtools-fonts.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
@@ -271,7 +271,7 @@ p {
     font-family: "Family Name";
     src:
         url("YourVariableFontName.woff2")
-        format("woff2 supports variations"),                      
+        format("woff2 supports variations"),
         url("YourVariableFontName.woff2")
         format("woff2-variations");
     font-weight: [low] [high];

@@ -25,7 +25,7 @@ tags: article
 <figure>
     <img src="images/health-restrictions.png" alt="">
     <figcaption>
-        
+
     </figcaption>
 </figure>
 
@@ -114,7 +114,7 @@ tags: article
 Было интересно узнать какие же именно элементы в вебе респонденты считают недоступными. В этом вопросе можно было выбрать несколько ответов.
 <figure>
     <img src="images/inaccessible-sites-parts.png" alt="">
-    <figcaption>        
+    <figcaption>
     </figcaption>
 </figure>
 
